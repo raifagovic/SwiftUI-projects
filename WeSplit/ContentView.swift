@@ -9,14 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .resizable()
-                .frame(width: 100, height: 100)
-                .aspectRatio(contentMode: .fit)
-            
-            Text("Hello World")
-                .font(.title)
+        Form {
+            Section {
+                Text("Hello World")
+                Text("Hello World")
+            }
+            Section {
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+                Text("Hello World")
+            }
         }
     }
 }
