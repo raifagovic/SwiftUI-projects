@@ -9,14 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Spacer()
-            Text("First")
-            Text("Second")
-            Text("Third")
-            Spacer()
-            Spacer()
+        ZStack {
+            VStack(spacing: 0) {
+                Color.red
+                Color.blue
+            }
+
+            Text("Your content")
+                .foregroundStyle(.secondary)
+                .padding(50)
+                .background(.ultraThinMaterial)
         }
+        .ignoresSafeArea()
     }
 }
 
