@@ -13,6 +13,16 @@ struct ContentView: View {
     @State private var coffeeAmount = 1
     
     var body: some View {
-        Stepper("\(sleepAmount) hours", value: $sleepAmount, in: 4...12)
+        NavigationStack {
+            VStack {
+                Text("When do you want to wake up?")
+                    .font(.headline)
+
+                DatePicker("Please enter a time", selection: $wakeUp, displayedComponents: .hourAndMinute)
+                    .labelsHidden()
+
+                // more to come
+            }
+        }
     }
 }
