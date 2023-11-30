@@ -12,11 +12,13 @@ struct ContentView: View {
     
     var body: some View {
         Button("Tap Me") {
-            // do nothing
+            animationAmount += 1
         }
         .padding(50)
         .background(.red)
         .foregroundStyle(.white)
         .clipShape(.circle)
+        .scaleEffect(animationAmount)
+        .animation(.default, value: animationAmount)
     }
 }
