@@ -9,12 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Image(.example)
-            .resizable()
-            .scaledToFit()
-            .containerRelativeFrame(.horizontal) { size, axis in
-                size * 0.8
+        NavigationStack {
+            List(0..<100) { row in
+                NavigationLink("Row \(row)") {
+                    Text("Detail \(row)")
+                }
             }
+            .navigationTitle("SwiftUI")
+        }
     }
 }
 
