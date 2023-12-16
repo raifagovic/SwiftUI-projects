@@ -14,6 +14,7 @@
 		B3F5C2FB2B2290BF0002FD09 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5C2FA2B2290BF0002FD09 /* Astronaut.swift */; };
 		B3F5C2FD2B29C3BA0002FD09 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5C2FC2B29C3BA0002FD09 /* MissionView.swift */; };
 		B3F5C2FF2B2DB7FB0002FD09 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5C2FE2B2DB7FB0002FD09 /* AstronautView.swift */; };
+		B3F5C3012B2E689E0002FD09 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F5C3002B2E689E0002FD09 /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		B3F5C2FA2B2290BF0002FD09 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		B3F5C2FC2B29C3BA0002FD09 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		B3F5C2FE2B2DB7FB0002FD09 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		B3F5C3002B2E689E0002FD09 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				B3F5C2F02B210CCB0002FD09 /* Assets.xcassets */,
 				B3F5C2F22B210CCB0002FD09 /* Preview Content */,
 				B3F5C2FC2B29C3BA0002FD09 /* MissionView.swift */,
+				B3F5C3002B2E689E0002FD09 /* Color-Theme.swift */,
 			);
 			path = Moonshot;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F5C2FB2B2290BF0002FD09 /* Astronaut.swift in Sources */,
+				B3F5C3012B2E689E0002FD09 /* Color-Theme.swift in Sources */,
 				B3F5C2FD2B29C3BA0002FD09 /* MissionView.swift in Sources */,
 				B3F5C2EF2B210CC80002FD09 /* ContentView.swift in Sources */,
 				B3F5C2ED2B210CC80002FD09 /* MoonshotApp.swift in Sources */,
