@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        AsyncImage(url: URL(string: "https://hws.dev/img/bad.png")) { phase in
+        AsyncImage(url: URL(string: "https://hws.dev/img/logo.png")) { phase in
             if let image = phase.image {
                 image
                     .resizable()
